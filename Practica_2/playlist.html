@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Fernando Gonzalez">
+    <meta keywords="html, etiquetas, arquitectura">
+    <title>Disco</title>
+    <link rel="stylesheet" href="css/playlist.css">
+</head>
+
+<body>
+
+    <main>
+        <aside id="menu">
+            <h1>Menu</h1>
+                    <nav>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="disco.html">Disco</a></li>
+                        <li><a href="cantante.html">Cantante</a></li>
+                        <li><a href="cancion.html">Cancion</a></li>
+                    </ol>
+                    </nav>
+        </aside>
+
+        <section id="cuadro">
+            <form>
+                <section id="formulario">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div>
+                <label for="usuario">Usuario</label>
+                <select id="usuario" aria-placeholder="Seleccionar usuario" name = "usuario">
+                    <option value="1">Individual</option>
+                    <option value="2">Duo</option>
+                    <option value="3">Familiar</option>
+                </select>
+            </div>
+
+            </section>
+            </form>
+        
+          
+             
+        <section>
+            <div>
+                <button type="button" onclick="mostrarDatos4();">Enviar</button>
+            </div>
+        </section>
+            <header>
+               
+        <h1>PlayList</h1>
+    </header>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="grupo"><p>Grupo LDSM401</p></section>
+        <section id="nombre"><p>Naomi Rios</p></section>
+    </footer>
+    <script src="js/funcionalidad.js"></script>
+</body>
+</html>

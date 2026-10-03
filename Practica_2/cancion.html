@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Fernando Gonzalez">
+    <meta keywords="html, etiquetas, arquitectura">
+    <title>Disco</title>
+    <link rel="stylesheet" href="css/cancion.css">
+</head>
+
+<body>
+
+    <main>
+        <aside id="menu">
+            <h1>Menu</h1>
+                    <nav>
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="disco.html">Disco</a></li>
+                        <li><a href="cantante.html">Cantante</a></li>
+                        <li><a href="playlist.html">Playlist</a></li>
+                    </ol>
+                    </nav>
+        </aside>
+        <section id="cuadro">
+            <form>
+            <section id="formulario">
+                <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div>
+                <label for="duracion">Duracion</label>
+                <input type="text" id="duracion" name="duracion">
+            </div>
+
+             <div>
+                <label for="compositor">Compositor</label>
+                <input type="text" id="compositor" name="compositor">
+            </div>
+
+            <div>
+                <label for="cantante">Cantante</label>
+                <select id="cantante" aria-placeholder="Seleccionar cantante" name = "cantante">
+                    <option value="1">Rels b</option>
+                    <option value="2">Ivan Cornejo</option>
+                    <option value="3">Alvarito Dias</option>
+                </select>
+            </div>
+
+           </section>
+             </form>
+            
+           
+        <section>
+            <div>
+                <button type="button" onclick="mostrarDatos3();">Enviar</button>
+            </div>
+        </section>
+            <header>
+               
+        <h1>Cancón</h1>
+    </header>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="grupo"><p>Grupo LDSM401</p></section>
+        <section id="nombre"><p>Naomi Rios</p></section>
+    </footer>
+    <script src="js/funcionalidad.js"></script>
+</body>
+</html>
