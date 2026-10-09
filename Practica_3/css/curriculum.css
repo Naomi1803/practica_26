@@ -1,0 +1,18 @@
+body{
+background-color: #4a2434;
+}
+.navbar{
+background-color: rgb(233, 164, 221);
+}
+#datos_personales{
+    background-color: rgb(233, 164, 221);
+}
+#proyectos{
+   background-color: rgb(233, 164, 221); 
+}
+#estudios{
+  background-color: rgb(233, 164, 221);   
+}
+footer{
+   background-color: rgb(233, 164, 221);  
+}
