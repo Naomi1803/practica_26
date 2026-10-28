@@ -16,9 +16,9 @@ function cargar(){
     document.getElementById("promedio").innerHTML=cadena;
     console.log(suma);
    promedio=suma/7
-   let min1=Marth.min(...muertes);
-    let max1=Marth.max(...muertes);
-   document.getElementById("promedio").innerHTML +="La suma es: "+ suma + "   El promedio es:"+promedio +"El miniimo es: "+min1+"  El maximo es:  "+max1;
+   let min1=Math.min(...muertes);
+    let max1=Math.max(...muertes);
+   document.getElementById("promedio").innerHTML +="La suma es: "+ suma + "   El promedio es:"+promedio +" El miniimo es: "+min1+"  El maximo es:  "+max1;
 
 
 }
